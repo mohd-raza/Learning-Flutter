@@ -1,3 +1,4 @@
+import 'package:firstapp/widgets/drawer.dart';
 import 'package:flutter/material.dart';
 // ignore_for_file: prefer_const_constructors
 
@@ -16,7 +17,7 @@ class HomePage extends StatelessWidget {
       body: Center(
         child: Text("Welcome to $name app Day: $days"),
       ),
-      drawer: Drawer(),
+      drawer: MyDrawer(),
     );
   }
 }
